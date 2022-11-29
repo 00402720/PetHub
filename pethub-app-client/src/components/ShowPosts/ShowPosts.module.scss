@@ -1,0 +1,104 @@
+
+@import '../../variables';
+
+.Posts {
+    position: relative;
+    left: 0;
+    width: 70%;
+    height: fit-content;
+    margin: 0 0 0 25%;
+
+    background-color: $light-grey-post;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+
+    .PostInfo {
+
+        .UserInfo {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 1rem 0 0 2rem;
+            gap: 10px;
+
+
+            figure {
+                width: 4rem;
+                height: 4rem;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+
+        .PetName {
+            padding-left: 10%;
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .Description {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+    }
+
+    .PhotoContainer {
+        border: 1px solid black;
+        
+        figure {
+            margin: auto;
+            height: 50vh;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .Interaction {
+        
+        div {
+            display: flex;
+            padding-left: 10%;
+            gap: 1rem;
+            margin: 1%;
+
+            figure {
+                width: 2rem;
+                height: 2rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            section {
+                border-radius: 1rem;
+                width: 80%;
+                background-color: $light-grey;
+                padding: 10px;
+
+                input {
+                    background-color: $light-grey;
+                    border: none;
+                    height: 100%;
+                    width: 100%;
+                    outline: none;
+                }
+            }
+        }
+    }
+}

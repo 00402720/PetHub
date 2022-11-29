@@ -1,0 +1,57 @@
+@import "../../../../variables";
+
+.ProfileSection{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 25rem;
+    
+    div{
+
+
+
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+        box-shadow: 4px 4px $light-grey;
+        
+        
+        .YourPets{
+
+            display: flex;
+            justify-content: center;
+            background-color: $light-grey-post;
+            height:3rem;
+            border-radius: 0.75rem 0.75rem 0rem 0rem;
+            align-items: center;
+            
+            
+            .FigPic{
+                align-items: center;
+                justify-content: center;
+                height: 3rem;
+                width: 3rem;
+                border-radius: 50%;
+                margin-right: 1rem;
+                img{
+                    
+                    height: 3rem;
+                    width: 3rem;
+                }
+
+            }
+
+            p{
+                font-weight: bold;
+                font-family: $theme-title-font;
+            }
+        }
+        
+
+
+    }
+
+}

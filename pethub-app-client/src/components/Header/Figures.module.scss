@@ -1,0 +1,36 @@
+@mixin resize($widthSize, $heightSize) {
+    width: $widthSize;
+    height: $heightSize;
+}
+
+.Figures {
+    width: 4rem;
+    height: 4rem;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+}
+.Profiles {
+    width: 3rem;
+    height: 3rem;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .Figures{
+        @include resize(2.5rem, 2.5rem);
+    }
+    
+    .Profiles{
+        @include resize(1.5rem, 1.5rem);
+    }
+}

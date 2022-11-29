@@ -1,0 +1,34 @@
+@import './../../variables';
+
+.Header {
+    padding: 1rem;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    z-index: 2;
+   
+    >div {
+      flex: 1 0 0;
+      display: flex;
+      align-items: center;
+      /*gap: 1rem;*/
+    }
+   
+   
+    h1 {
+      color: $theme-text-color;
+      font-family: $theme-title-font;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .Header{
+
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+  }

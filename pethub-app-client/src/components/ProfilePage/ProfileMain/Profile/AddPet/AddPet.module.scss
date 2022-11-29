@@ -1,0 +1,131 @@
+@import '../../../../../variables';
+
+section{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+    
+    
+
+    .Pets{
+
+        width: 16rem;
+        height: 16rem;
+        margin: 1.5rem;
+        box-shadow: 4px 4px $light-grey;
+        border-radius: 0.75rem;
+    
+
+        .AddPetB{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 16rem;
+            height: 16rem;
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 0.75rem;
+            background-color: $light-grey-post;
+            border: none;
+            
+            
+
+            figure{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                width: 4rem;
+                height:4rem;
+                border-radius: 0.75rem; 
+
+                img{
+
+                    max-width: 100%;
+                    max-height: 100%;
+                    border-radius: 0.75rem;
+                    
+                }
+                
+
+            }
+
+            &:hover{
+
+                transform: scale(1.01);
+            }
+
+        
+
+            
+        }
+
+    }
+
+    .PetCard{
+        display: flex;
+        flex-direction: column;
+        width: 16rem;
+        height: 16rem;
+        margin: 1.5rem;
+        box-shadow: 4px 4px $light-grey;
+        border-radius: 0.75rem;
+        align-items: center;
+        justify-content: center;
+
+        
+        .PetFigure{
+
+            display: flex;
+            flex-grow: 1;
+            margin: 1rem;
+            width: 14rem;
+            height: 14rem;
+            border-radius: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0rem 0.2rem $light-grey;
+            
+            
+
+
+
+            .PetImage{
+
+                height: 100%;
+                overflow: hidden;
+                border-radius: 0.5rem;
+                
+
+
+            }
+
+            &:hover{
+                transform: scale(1);
+            }
+
+        }
+        .PetName{
+
+            text-align: center;
+            font-weight: bold;
+            font-size: medium;
+            border: none;
+            background-color: $dark-orange;
+            color: $theme-primary-color;
+            width: 100%;
+            height: 20%;
+            border-radius: 0rem 0rem 0.5rem 0.5rem;
+
+            &:hover {
+                background-color: $pale-orange;
+            }
+        }
+
+    }
+
+}

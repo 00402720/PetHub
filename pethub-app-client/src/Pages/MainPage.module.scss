@@ -1,0 +1,26 @@
+@import './../variables';
+
+.MainPage {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    background-color: $theme-primary-color;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    .BodyContainer {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+    
+    .BackgroundContainer {
+        position: absolute;
+        width: 100%;
+    }
+}

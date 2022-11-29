@@ -1,0 +1,44 @@
+@import './../../variables';
+
+.Buttons {
+
+  justify-content: flex-end;
+
+   button {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+   
+     padding: 0.5rem 1rem;
+   
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+     color: $theme-secondary-color;
+   
+     background: $theme-primary-color;
+     border: none;
+     border-radius: 0.5rem;
+   
+     cursor: pointer;
+     transition: all ease-in-out 250ms;
+   
+     &:hover,
+     &:focus {
+       transform: scale(1.05);
+     }
+   
+     p {
+       font-family: $theme-title-font;
+       font-size: 1rem;
+     }
+
+     @media only screen and (max-width: 768px){
+       p{
+         display: none;
+       }
+     }
+   }
+}
+

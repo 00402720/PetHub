@@ -1,0 +1,25 @@
+@import "./../../../variables";
+
+
+.FooterSection{
+    
+    
+    display: flex;
+
+    background-color: $light-grey-post;
+    
+    justify-content: center;
+
+    
+
+        
+        .Copy{
+
+            text-align: center;
+            font-family: $theme-title-font;
+            
+        }
+    
+
+    
+}

@@ -1,0 +1,19 @@
+//esto es para evitar usar estilos planos, para los estilos de los componentes se harán módulos
+ 
+@import "./variables";
+ 
+.App {
+  width: 100%;
+  min-height: 100vh;
+ 
+  background-color: $theme-secondary-color;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ 
+  main {
+    flex: 1;
+    color: $theme-primary-color;
+  }
+}

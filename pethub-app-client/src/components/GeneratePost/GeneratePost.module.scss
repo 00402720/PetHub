@@ -1,0 +1,117 @@
+@import '../../variables';
+
+.GeneratePostContainer {
+    position: relative;
+    background-color: $light-grey;
+    width: 70%;
+    height: fit-content;
+    padding: 2% 0;
+    z-index: 2;
+
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .FillerContainer {
+        position: relative;
+        height: 80%;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        background-color: $theme-primary-color;
+
+        .CreatePost {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            padding: 1rem 2rem;
+
+            figure{
+                height: 5.5rem;
+                width: 5.5rem;
+                
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .UserInfo {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                padding-left: 1.5rem;
+                gap: 10px;
+
+                .Username {
+                    font-size: 2rem;
+                }
+
+                .FillField {
+                    border-radius: 1rem;
+                    background-color: $light-grey;
+                    padding: 10px;
+
+                    input {
+                        background-color: $light-grey;
+                        border: none;
+                        height: 100%;
+                        width: 100%;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    
+        hr {
+            margin: 0 5%;
+        }
+
+        .ExtraContainer {
+            display: flex;
+            flex-direction: row;
+            font-size: 0.5rem;
+            justify-content: center;
+            align-content: center;
+            justify-content: space-evenly;
+
+            height: 100%;
+
+            button {
+                
+                border-radius: 1rem;
+                border: none;
+                background-color: $theme-primary-color;
+                margin: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $light-grey-post;
+                }
+
+                figure {
+                    display: flex;
+                    width: 40%;
+                    text-align: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+}

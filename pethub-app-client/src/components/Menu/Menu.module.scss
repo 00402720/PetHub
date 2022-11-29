@@ -1,0 +1,78 @@
+@import './../../variables';
+
+.Menu{
+    position: sticky;
+    top: 20px;
+    left: 3%;
+    width: 30vh;
+    height: auto;
+    background-color: $light-grey-post;
+    z-index: 2;
+    margin: 0;
+
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    overflow: hidden;
+
+    article {
+        display: flex;
+        border-bottom: 1px solid black;
+        
+        &:last-child{
+            border-bottom: 0;
+        }
+        
+        
+        button{
+            width: 100%;
+            padding: 10%;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            gap: 10px;
+            background-color: $light-grey-post;
+                 
+            border: 1px;
+            cursor: pointer;
+
+            &:hover,
+            &:focus {
+                background-color: $light-grey;
+            }
+            
+            figure {
+                width: 4vh;
+                height: 4vh;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            p {
+                font-family: $theme-title-font;
+                font-size: 3vh;
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    .Menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .Menu {
+        width: 20vh;
+
+        button{
+            font-size: 0.1rem;
+        }
+    }
+}
