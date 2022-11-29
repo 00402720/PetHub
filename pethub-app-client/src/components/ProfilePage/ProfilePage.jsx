@@ -10,9 +10,7 @@ const ProfilePage = () => {
     <div className={ classes ["App"] }>
       <Header />
       <Main />
-      <Footer></Footer>
-      
-      
+      <Footer />
     </div>
     )
 }
