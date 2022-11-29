@@ -1,8 +1,7 @@
 import classes from './Menu.module.scss';
 
-import login from '../../assets/images/icons/login-door-01.png';
 import addPets from '../../assets/images/icons/add-pets-01.png';
-import userPfp from '../../assets/images/icons/user-pfp-01.png';
+import userPfp from '../../assets/images/icons/User-pfp-01.png';
 import signUp from '../../assets/images/icons/sign-up-01.png';
 
 const Menu = () => {

@@ -4,7 +4,7 @@ import FotoVideo from '../../assets/images/icons/FotoVideo-01.png';
 import Activity from '../../assets/images/icons/Activity-01.png';
 import Location from '../../assets/images/icons/Location-01.png';
 import TagSomeone from '../../assets/images/icons/Tag-Someone-01.png';
-import UserPfp from '../../assets/images/icons/user-pfp-01.png';
+import UserPfp from '../../assets/images/icons/User-pfp-01.png';
 
 const GeneratePost = () => {
      return (

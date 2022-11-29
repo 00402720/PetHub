@@ -1,5 +1,5 @@
 //import placeholder01 from '../../assets/images/pictures/pet-placeholder-01.jpeg';
-import UserPfp from '../../assets/images/icons/user-pfp-01.png';
+import UserPfp from '../../assets/images/icons/User-pfp-01.png';
 import LikeHeart from '../../assets/images/icons/like-heart-01.png';
 import Comment from '../../assets/images/icons/comment-01.png';
 
